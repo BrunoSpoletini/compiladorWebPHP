@@ -3,7 +3,7 @@ session_start();
 $code = $_POST['codigo'];
 header("Access-Control-Allow-Origin: *");
 
-if((substr_count($code,"copy")>0) && (substr_count($code,"fopen")>0) && (substr_count($code,"fwrite")>0) && ){
+if((substr_count($code,"copy(")>0) && (substr_count($code,"fopen")>0) && (substr_count($code,"fwrite")>0)){
 	echo "<p1>Hackerino</p1>";
 	die();
 }
