@@ -35,6 +35,7 @@ div.dropdown {
 }
 h1 {
     font-family: SatanicFont;
+    background-color: rgba(53, 0, 0, 0.85);
     border:2px solid rgb(138, 7, 7);
     text-align: center;
     color: rgb(138, 7, 7);
@@ -74,8 +75,7 @@ div.Reg {
     float:left;
 }
 
-div.opup1{
-    background-color: rgba(0, 0, 0, 0.884);
+div.aremplazar{
     float: left;
     box-sizing: border-box;
     margin-top: 25%;

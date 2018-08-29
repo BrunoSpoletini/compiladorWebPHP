@@ -19,13 +19,13 @@
             <label for="user">Usuario</label>
             <br><input type="text" id="user"  name="user"><br>
             <label for="pass">Contraseña</label>
-            <br><input type="password" id="pass" name="pass"><br>
+            <br><input type="password" id="pass" name="pass" onkeyup="muestra_claves_iguales()"><br>
             <label for="passr">Repetir Contraseña</label>
             <br><input type="password" id="passr" name="passr" onkeyup="muestra_claves_iguales()"><br>
             <input class="submit" type="button" value="Registrarse" onClick="Mandar()"><br>
         </form>
     </div>
-    <div id="dm" class="opup1">&nbsp;</div>
+    <div id="dm" class="aremplazar">&nbsp;</div>
     <script src="JS/all.js" type="text/javascript" charset="utf-8"></script>
     <script>
         function muestra_claves_iguales() {
