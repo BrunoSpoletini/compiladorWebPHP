@@ -67,10 +67,20 @@ div.Reg {
     width: 50%;
     height: auto;
     overflow: hidden;
-    margin-top: 6.5%;
+    margin-top: 2.5%;
     margin-bottom: 0;
-    margin-left: auto;
+    margin-left: 25%;
     margin-right: auto;
+    float:left;
+}
+
+div.opup1{
+    background-color: rgba(0, 0, 0, 0.884);
+    float: left;
+    box-sizing: border-box;
+    margin-top: 25%;
+    height: 15%;
+    width:20%;
 }
 
 div.Principal {
@@ -223,4 +233,18 @@ button.comp {
     cursor: pointer;
     box-sizing: border-box;
     margin-top: 10%;
+}
+
+input[type=button] {
+    width: 100%;
+    font-family: SatanicFont;
+    font-size: 125%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(138, 7, 7);
+    padding: 2% 2%;
+    margin: 2% auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
 }
