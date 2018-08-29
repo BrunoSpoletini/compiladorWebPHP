@@ -32,6 +32,7 @@ div.dropdown {
     position: absolute;
     
 }
+
 h1 {
     font-family: SatanicFont;
     background-color: rgba(53, 0, 0, 0.85);
@@ -77,7 +78,23 @@ div.Reg {
 div.aremplazar{
     float: left;
     box-sizing: border-box;
-    margin-top: 25%;
+    margin-top: 0%;
+    height: 15%;
+    width:20%;
+}
+
+div.aremplazar2{
+    float: left;
+    box-sizing: border-box;
+    margin-top: 0%;
+    height: 15%;
+    width:20%;
+}
+
+div.aremplazar3{
+    float: left;
+    box-sizing: border-box;
+    margin-top: 10%;
     height: 15%;
     width:20%;
 }

@@ -33,7 +33,7 @@
             }
         }
     } else {
-        header("Location: ./index.php?login=failed");
+        header("Location: ./Login.php?login=failed");
     }
 ?>
     <div class=Music>

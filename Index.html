@@ -62,7 +62,9 @@
             });
             /*
             $("#1").on("click", function(event) {
-                compile(editor);
+                $.post( "execute.php", { codigo: editor.getValue() }, function( data ) {
+                $("#result").html(data.replace(/\n/g, "<br>"));
+                });
             });
             */
             $("#clear").on("click", function(event) {

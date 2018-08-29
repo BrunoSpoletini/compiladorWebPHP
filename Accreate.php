@@ -1,7 +1,7 @@
 <?php
     include_once 'TMP.php';
 
-    if(isset($_POST['submit'])){
+    if($_SERVER['REQUEST_METHOD'] == 'POST'){
         $nombre = mysqli_real_escape_string($cn,$_POST['nombre']);
         $apellido = mysqli_real_escape_string($cn,$_POST['apellido']);
         $mail = mysqli_real_escape_string($cn,$_POST['mail']);
@@ -12,8 +12,8 @@
         } else {
             $sql= "INSERT INTO data (apellido,mail,nombre,passw,usuario) VALUES ('$apellido', '$mail', '$nombre', '$passw', '$usuario');";
             mysqli_query($cn,$sql);
-            header("Location: ./index.php?signup=success");
+            header("Location: ./Register.php?signup=success");
         }
     } else {
-        header("Location: ./index.php?signup=failed");
+        header("Location: ./Register.php?signup=failed");
     }
