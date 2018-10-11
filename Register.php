@@ -23,7 +23,7 @@
             <br><input type="password" id="pass" name="pass" onkeyup="muestra_claves_iguales()"><br>
             <label for="passr">Repetir Contraseña</label>
             <br><input type="password" id="passr" name="passr" onkeyup="muestra_claves_iguales()"><br>
-            <input class="Create" type="button" name="butto" value="Registrarse" onClick="Mandar()"><br>
+            <input class="Create" type="button" id="button" name="button" value="Registrarse" onClick="Mandar()"><br>
         </form>
     </div>
     <div id="mail_status" class="aremplazar3">&nbsp;</div>
@@ -44,7 +44,7 @@
                 alert("Complete todos los campos");
             }
             else{
-                if(((document.f1.mail.value.match(/@/g) || []).length)!=1 || ((document.f1.mail.value.match(/@/g) || []).length)<1){
+                if(((document.f1.mail.value.match(/@/g) || []).length)!=1){
                     alert("Ese mail no es valido");
                 }
                 else{
