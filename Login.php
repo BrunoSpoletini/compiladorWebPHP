@@ -15,8 +15,6 @@
                 <input type="submit" name="submit" value="Search">
             </form>
         </div>
-        <div class=Music>
-            <audio class="sqs-audio-player" src="resources/Gojira.mp3" controls>
-        </div>
+            <audio class="sqs-audio-player" src="resources/Gojira.mp3" autoplay>
     </body>
 </html>
